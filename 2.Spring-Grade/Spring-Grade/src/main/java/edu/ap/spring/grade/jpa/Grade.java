@@ -52,3 +52,4 @@ public class Grade {
 		this.grade = grade;
 	}	
 }
+
