@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-InfractionApplication<infraction>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "edu.ap.spring.infraction.InfractionApplication",
+            "projectName": "infraction",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ExamApplication<exam>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.webservice.exam.ExamApplication",
+            "projectName": "exam",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ExamenApplication<examen>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "ap.ti.examen.ExamenApplication",
+            "projectName": "examen",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UserApplication<tml>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "edu.ap.spring.UserApplication",
+            "projectName": "tml",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

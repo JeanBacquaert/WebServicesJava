@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TMLApplication",
+            "request": "launch",
+            "mainClass": "edu.ap.spring.tml.TMLApplication",
+            "projectName": "tml"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UserApplication<tml>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "edu.ap.spring.UserApplication",
+            "projectName": "tml",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
