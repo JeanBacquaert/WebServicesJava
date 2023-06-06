@@ -1,14 +1,13 @@
-package edu.ap.webapp.demo;
+package edu.ap.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class Vraag2Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-		System.out.println("EERSTE APP");
+		SpringApplication.run(Vraag2Application.class, args);
 	}
 
 }
