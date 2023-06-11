@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-FilmsApplication<films>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "redis2.films.FilmsApplication",
+            "projectName": "films",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

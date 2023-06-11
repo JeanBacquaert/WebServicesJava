@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Import Students</title>
+</head>
+<body>
+<form th:action='@{/importStudents}' method='POST' onsubmit='validate()'>
+    <div class='form-group row'>
+        <div class='col-xs-4'>
+            <label for='students'>Students to import: </label>
+            <input type='text' class='form-control' name='students' id='students'>
+        </div>
+    </div>
+
+    <input type='SUBMIT' value='Transfer'>
+</form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="js/app.js"></script>
+<title>Search movies based on actor name</title>
+</head>
+<body>
+<div class="card card-body bg-light">
+<h1>Search movies on actor name</h1>
+<br/>
+<form th:action="@{/movies/year}" method="GET">
+    <div class="col-xs-4">
+        <label for="year">Year:</label>
+        <input type="text" class="form-control" name="year" id="year">
+    </div>
+    <br/>
+    <input type="submit" value="Search" >
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Rest2Application<rest2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "spring.rest.rest2.Rest2Application",
+            "projectName": "rest2",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

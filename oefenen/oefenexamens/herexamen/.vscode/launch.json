@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-HerexamenApplication<herexamen>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "herexamen1.herexamen.HerexamenApplication",
+            "projectName": "herexamen",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
