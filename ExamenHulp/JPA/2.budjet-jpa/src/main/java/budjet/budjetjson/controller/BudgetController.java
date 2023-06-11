@@ -1,4 +1,4 @@
-package herexamen1.herexamen.controller;
+package budjet.budjetjson.controller;
 
 import java.sql.Date;
 
@@ -10,8 +10,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import herexamen1.herexamen.jpa.Budget;
-import herexamen1.herexamen.jpa.BudgetRepository;
+import budjet.budjetjson.jpa.Budget;
+import budjet.budjetjson.jpa.BudgetRepository;
+
+
 
 @Controller
 public class BudgetController {

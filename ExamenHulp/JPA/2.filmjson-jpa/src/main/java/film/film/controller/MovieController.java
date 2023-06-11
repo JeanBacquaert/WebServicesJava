@@ -1,4 +1,4 @@
-package herexamen2.herexamen2.controller;
+package film.film.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.CollectionType;
 
-import herexamen2.herexamen2.jpa.Movie;
+import film.film.jpa.Movie;
 
 import java.io.IOException;
 import java.io.InputStream;

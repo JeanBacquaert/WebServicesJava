@@ -8,10 +8,10 @@
 		<version>2.7.9</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>herexamen.1</groupId>
-	<artifactId>herexamen</artifactId>
+	<groupId>budjet.1</groupId>
+	<artifactId>budjet</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>herexamen</name>
+	<name>budgjet</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>

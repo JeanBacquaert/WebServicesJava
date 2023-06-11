@@ -1,13 +1,13 @@
-package herexamen2.herexamen2;
+package film.film;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Herexamen2Application {
+public class MainApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Herexamen2Application.class, args);
+		SpringApplication.run(MainApplication.class, args);
 	}
 
 }

@@ -1,4 +1,4 @@
-package herexamen1.herexamen.jpa;
+package budjet.budjetjson.jpa;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

@@ -1,4 +1,4 @@
-package herexamen2.herexamen2.jpa;
+package film.film.jpa;
 
 import java.util.List;
 
