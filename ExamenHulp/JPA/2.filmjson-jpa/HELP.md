@@ -2,7 +2,7 @@
 The following was discovered as part of building this project:
 
 * The JVM level was changed from '11' to '17', review the [JDK Version Range](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range) on the wiki for more details.
-* The original package name 'herexamen.2.herexamen2' is invalid and this project uses 'herexamen2.herexamen2' instead.
+* The original package name 'herexamen.1.herexamen' is invalid and this project uses 'herexamen1.herexamen' instead.
 
 # Getting Started
 
