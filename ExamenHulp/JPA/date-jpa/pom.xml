@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ap.ti</groupId>
-	<artifactId>examen</artifactId>
+	<artifactId>date</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>examen</name>
-	<description>Examen oefening 1</description>
+	<name>date</name>
+	<description>Date oefening 1</description>
 
 	<properties>
 		<java.version>11</java.version>
