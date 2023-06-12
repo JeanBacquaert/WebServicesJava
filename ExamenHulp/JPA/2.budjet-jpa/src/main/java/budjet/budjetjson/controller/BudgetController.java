@@ -30,8 +30,6 @@ public class BudgetController {
         return "uitgaven";
     }
 
-    
-
     @GetMapping("/maandlimiet")
     public String list(Model model) {
         model.addAttribute("budgets", budgetRepository.findAll());
@@ -52,5 +50,4 @@ public class BudgetController {
             return "uitgaven";
         }
     }
-
 }

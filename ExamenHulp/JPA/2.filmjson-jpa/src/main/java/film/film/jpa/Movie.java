@@ -33,8 +33,6 @@ public class Movie{
     public String Response;
     public List<String> Images;
 
-    //return actors
-
     public String getActors() {
         return Actors;
     }

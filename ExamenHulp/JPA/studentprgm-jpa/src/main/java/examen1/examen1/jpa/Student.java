@@ -1,11 +1,12 @@
 package examen1.examen1.jpa;
 
 import java.time.LocalDate;
-
 import javax.persistence.*;
+import lombok.Data;
 
 @Entity
 @Table(name = "student")
+@Data
 public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -33,45 +34,8 @@ public class Student {
         this.studyprogram = studyprogram;
     }
 
-    public long getId() {
-        return this.id;
-    }
-
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
-
-    public String getFirstname() {
-        return this.firstname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
-
-    public String getLastname() {
-        return this.lastname;
-    }
-
-    public void setDateofbirth(LocalDate dateofbirth) {
-        this.dateofbirth = dateofbirth;
-    }
-
-    public LocalDate getDateofbirth() {
-        return this.dateofbirth;
-    }
-
-    public void setStudyprogram(String studyprogram) {
-        this.studyprogram = studyprogram;
-    }
-
-    public String getStudyprogram() {
-        return this.studyprogram;
-    }
-
     @Override
     public String toString() {
         return lastname + " " + firstname + " " + dateofbirth + " " + studyprogram;
     }
-
 }

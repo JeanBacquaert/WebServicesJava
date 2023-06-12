@@ -41,5 +41,4 @@ public class Budget {
     public String toString() {
         return amount + " " + description + " " + date ;
     }
-
 }

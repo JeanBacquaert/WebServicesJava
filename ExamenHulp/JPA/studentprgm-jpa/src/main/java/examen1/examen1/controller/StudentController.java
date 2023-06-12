@@ -13,8 +13,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import examen1.examen1.jpa.Student;
 
-
-
 @Controller
 public class StudentController {
 
@@ -42,9 +40,9 @@ public class StudentController {
         List<Student> students = studentRepository.findByFirstnameAndLastname(firstname, lastname);
         if (students.isEmpty()) {
             Student student = new Student(firstname, lastname, dateofbirth, studyprogram);
+            System.out.println(student.getFirstname());
             studentRepository.save(student);
         }
         return "redirect:/listStudent";
     }
-    
 }

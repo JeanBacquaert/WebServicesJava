@@ -45,5 +45,4 @@ public class GradeController {
         gradeRepository.save(new Grade(firstName, lastName, grade));
         return "redirect:/list";
     }
-
 }

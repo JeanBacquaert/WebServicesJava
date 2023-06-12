@@ -9,6 +9,47 @@
             "projectName": "date",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MainApplication<budjet>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "budjet.budjetjson.MainApplication",
+            "projectName": "budjet",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=60900 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=budjet"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BankApplication<spring-bank>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "edu.ap.spring.BankApplication",
+            "projectName": "spring-bank",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootApplication<springboot>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "h1.oef1.springboot.SpringbootApplication",
+            "projectName": "springboot",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Examen1Application<studentprgm>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "examen1.examen1.Examen1Application",
+            "projectName": "studentprgm",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
